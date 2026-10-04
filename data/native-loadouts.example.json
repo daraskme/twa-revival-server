@@ -1,0 +1,19 @@
+{
+  "accountPolicy": {
+    "deploymentSlots": 3
+  },
+  "initialOwnedUnitIds": ["900000001", "900000002", "900000003"],
+  "commanders": [
+    {
+      "id": "example_commander",
+      "key": "example_commander_key",
+      "faction": "example_faction",
+      "initialLoadoutUnitIds": ["900000001", "900000002", "900000003"]
+    }
+  ],
+  "units": [
+    {"id": "900000001", "key": "example_unit_one", "faction": "example_faction", "tier": 1},
+    {"id": "900000002", "key": "example_unit_two", "faction": "example_faction", "tier": 1},
+    {"id": "900000003", "key": "example_unit_three", "faction": "example_faction", "tier": 1}
+  ]
+}

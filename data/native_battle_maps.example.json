@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "legacy_defaults": {
+    "territory": "example_territory_map",
+    "annihilation": "example_annihilation_map"
+  },
+  "maps": [
+    {"key": "example_territory_map", "ruleset": "territory", "terrain": "example_terrain"},
+    {"key": "example_annihilation_map", "ruleset": "annihilation", "terrain": "example_terrain"}
+  ]
+}

@@ -1,0 +1,26 @@
+node_modules/
+dist/
+.wrangler/
+/.dev.vars*
+/.env*
+/wrangler.toml
+/wrangler.json
+/wrangler.jsonc
+/data/commanders.json
+/data/native-loadouts.json
+/data/native_battle_maps.json
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Credentials and local player or operator state
+**/.env*
+**/.dev.vars*
+*.pem
+*.key
+*.p12
+*.pfx
+*.der
+player-release.json
+**/credentials*.json
