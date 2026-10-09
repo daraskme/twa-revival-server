@@ -6,6 +6,25 @@ This repository is maintained by DARASK and publishes selected TypeScript server
 
 **All rights reserved. No software reuse license is granted.** This snapshot is published for code review.
 
+## Service and development status — 2026-10-09
+
+**Production remains in maintenance. New sign-ins and matchmaking are paused,
+with existing battle relays left enabled. No reopening date is set.**
+[Current progress and release checks (日本語 / English / Русский)](https://github.com/daraskme/twa-revival-support/blob/main/STATUS.md)
+distinguish the live service, QA builds and unpublished work.
+
+The internal integrated candidate adds battle configuration history and usage
+queries, diagnostic stages, and moderation/lifecycle fixes. It passed 1,015
+backend tests and typechecking; acceptance with the final signed game package,
+both clients' results/rematches, complete equipped-skill capture and the website
+is still pending. These results concern the internal candidate, **not this
+public source snapshot**, and are not a deployment claim. Cost work also targets
+redundant storage and polling; actual billing savings have not been established.
+
+This update changes documentation only. The selected source, migrations,
+synthetic examples and exclusions below are unchanged. Do not deploy this
+snapshot as if it contained the current private candidate or production setup.
+
 ## What is included
 
 The snapshot contains 42 TypeScript files, 11 SQL migrations, package metadata, and three independently authored synthetic JSON examples. Thirty-seven TypeScript files and all 11 migrations retain their current source bytes. Five TypeScript importers were adapted to read data from local ignored `data/*.json` files instead of importing omitted game-related tables.
